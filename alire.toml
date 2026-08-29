@@ -70,9 +70,10 @@ commit = "0772e48d3e1f640829d142745a36b37edcd5470b"
 url    = "https://github.com/mosteo/cstrings"
 commit = "e4d58ad90bf32bc44304197e5906a519f5a9a7bf"
 
+# TODO: change to new clic version once accepted
 [pins.clic]
-url    = "https://github.com/alire-project/clic"
-commit = "7f3af9f2d6bf0f3e41dc0ab61907364c6acc5b1c"
+url    = "https://github.com/AdaOrbit/clic"
+commit = "57cbc94b010d711182f8cf505bbcc6025859f829"
 
 [pins.den]
 url    = "https://github.com/mosteo/den"
