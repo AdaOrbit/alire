@@ -73,7 +73,7 @@ commit = "e4d58ad90bf32bc44304197e5906a519f5a9a7bf"
 # TODO: change to new clic version once accepted
 [pins.clic]
 url    = "https://github.com/AdaOrbit/clic"
-commit = "57cbc94b010d711182f8cf505bbcc6025859f829"
+commit = "3ba0e20727c53c5344b678dbf7a75edf7f878a0a"
 
 [pins.den]
 url    = "https://github.com/mosteo/den"
