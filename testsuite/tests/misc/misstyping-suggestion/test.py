@@ -1,6 +1,5 @@
 """
 Suggest closest command if user misstypes
-Commands shorter then 4 letters will always return the help massage
 """
 
 # TODO: add "run" and "pin" test with a good "pun" :D
