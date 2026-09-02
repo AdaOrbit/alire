@@ -2,18 +2,18 @@
 Suggest closest command if user misstypes
 """
 
-# TODO: add "run" and "pin" test with a good "pun" :D
-
 from drivers.alr import run_alr
 from drivers.asserts import assert_eq
 
 # test for common spelling mistakes and misstypes
+#
 misstypes = [
     ("versiom", "version"),
     ("serach", "search"),
     ("self-updated", "self-update"),
     ("alr-update", "self-update"),
     ("alrupdate", "update"),
+    ("rum", "run"),
 ]
 
 for e in misstypes:
