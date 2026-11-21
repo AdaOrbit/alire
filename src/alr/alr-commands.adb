@@ -31,6 +31,7 @@ with Alr.Commands.Cache;
 with Alr.Commands.Clean;
 with Alr.Commands.Config;
 with Alr.Commands.Dev;
+with Alr.Commands.Ebuild;
 with Alr.Commands.Edit;
 with Alr.Commands.Exec;
 with Alr.Commands.Get;
@@ -888,6 +889,7 @@ begin
 
    Sub_Cmd.Register ("Crate", new Build.Command);
    Sub_Cmd.Register ("Crate", new Clean.Command);
+   Sub_Cmd.Register ("Crate", new Ebuild.Command);
    Sub_Cmd.Register ("Crate", new Edit.Command);
    Sub_Cmd.Register ("Crate", new Exec.Command);
    Sub_Cmd.Register ("Crate", new Init.Command);
